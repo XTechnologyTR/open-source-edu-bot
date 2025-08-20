@@ -3,7 +3,7 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-FROM python:3.7-alpine
+FROM python:3.14.0rc2-alpine
 LABEL MAINTAINER "Facebook Developers Circles" 
 
 RUN apk add --no-cache python3-dev libffi-dev gcc musl-dev make
